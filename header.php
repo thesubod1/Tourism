@@ -3,7 +3,7 @@
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tourism Homepage</title>
-        <link rel = "stylesheet" type = text/css href="header.css"/>
+        <link rel = "stylesheet" type = text/css href="../../assets/css/header.css"/>
     </head>
     <body>
 
@@ -27,6 +27,6 @@
             </div><!-- nav-wrapper -->
         </div> <!-- /nav-section -->
 
-        <script src="script.js"></script>
+        <script src="../../assets/js/script.js"></script>
     </body>
 </html>
