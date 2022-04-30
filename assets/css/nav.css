@@ -1,0 +1,19 @@
+
+.desktop .primary-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.desktop .primary-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: all 0.5s linear;
+}
+.desktop .primary-menu a:hover{
+    background-color: #fff;
+    color: #B00020;
+}
