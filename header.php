@@ -18,6 +18,7 @@
         <div class="nav-section" >
             <div class="nav-wrapper"id="nav" >
                 <ul >
+                    <li><a href=""></a></li>
                     <a href="#"><li>Home</li></a>
                     <a href="#"><li>Places</li></a>
                     <a href ="#"><li>Bucket-lists</li></a>
