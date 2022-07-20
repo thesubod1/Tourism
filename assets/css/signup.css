@@ -1,0 +1,60 @@
+.signup-wrapper
+{
+    box-shadow: 0px 4px 7px #c4c4c4;
+    width: 700px;
+    max-width: 100%;
+    background-color: #ffff;
+    border-radius: 25px;
+    padding: 45px 60px 90px;
+    position: relative;
+    
+}
+
+.signup-form-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+input[type = 'text'], input[type = 'password'], input[type = 'email'],input[type = 'date']
+{
+    display:inline-block;
+    border-radius: 15px;
+    background-color: #e9e9e9e9;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+input[type='submit']
+{
+    background-color: #7879f1;
+    font-weight: 600;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 45px;
+    display: inline-block;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+p
+{
+    color: red;
+}
+label
+{
+    padding-bottom:15px ;
+    font-weight: 600;
+
+}
+
+
+
+

@@ -3,7 +3,7 @@
 //     document.getElementById("menu").classList.toggle("icon");
 //     document.getElementById("nav").classList.toggle("change");
     
-// }
+//  }
 jQuery(document).ready(function () {
     $("#menu-icon").on("click",function(){
         $("#mobile-menu").addClass("show");

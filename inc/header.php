@@ -43,6 +43,5 @@
 
     <div class="mobile-menu-section" id="mobile-menu">
         <button id="mobile-menu-close">Close</button> 
-        <div class="mobile-menu-wrapper">
-        </div>
+        <div class="mobile-menu-wrapper"></div>
     </div>
