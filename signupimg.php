@@ -50,8 +50,8 @@ if(isset($_POST['submit']))
 
         <div class="img-display-sec">
             <div class="display-wrapper">
-
-                <div class="image" style="background-image:url('assets/pictures/dummyimg.jpg');"></div>
+                
+                <div class="image" style="background-image:url(<?php echo $photo;?>);"></div>
             </div>
         </div>
     </body>
