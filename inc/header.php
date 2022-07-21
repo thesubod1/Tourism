@@ -28,6 +28,10 @@
                 <li><a href="#">Bucket Lists</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Login</a></li>
+                <li><a href="#"> <div class="login-box">
+                <div class="login-box-wrapper">
+                <div class="login-img" style ="background-image:url('assets/pictures/dummyimg.jpg');"></div>
+                </div></a></li>
                 </ul>
             </nav>
             <div class="menu-icon-section">
@@ -37,6 +41,9 @@
                     <span class="line line-3"></span>
                 </button>
             </div>
+
+           
+        </div>
            
         </div><!-- .container -->
     </header> 

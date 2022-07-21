@@ -17,3 +17,14 @@
     background-color: #fff;
     color: #B00020;
 }
+
+
+.login-box .login-img
+{
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
