@@ -27,7 +27,7 @@
                 <li><a href="#">Places</a></li>
                 <li><a href="#">Bucket Lists</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="login.php">Login</a></li>
                 <li><a href="#"> <div class="login-box">
                 <div class="login-box-wrapper">
                 <div class="login-img" style ="background-image:url('assets/pictures/dummyimg.jpg');"></div>
@@ -40,9 +40,7 @@
                     <span class="line line-2"></span>
                     <span class="line line-3"></span>
                 </button>
-            </div>
-
-           
+            </div> 
         </div>
            
         </div><!-- .container -->
