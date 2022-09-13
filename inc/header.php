@@ -1,4 +1,5 @@
-<!DOCTYPE html><?php 
+<!DOCTYPE html>
+<?php 
     require_once(__DIR__.'/function.php');
 ?>
 <html>
@@ -6,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?php echo site_url().'../Assets/css/header.css'; ?>" />
+    <link rel="stylesheet" href="<?php echo site_url().'../Assets/css/header.css'; ?>" />
     <link rel="stylesheet" href="<?php echo site_url().'../Assets/css/mobilemenu.css'; ?>" />
     </head>
 <body>
@@ -22,7 +23,8 @@
                     <div class="side-nav">
                         <div class="side-nav-container">
                             <div class="search-icon"><ion-icon name="search"></ion-icon></div>
-                            <div class="login-icon"><ion-icon name="person"></ion-icon></div>
+                            <div class="login-icon" id = "deactive"><ion-icon name="person"></ion-icon></div>
+                            <div class="login-img" id = "active" style="background-image:url(<?php echo site_url().'../pictures/adventure.jpg'; ?>)"></div>
                             <div class="map-icon" style="background-image:url(<?php echo site_url().'../pictures/map.jpg'; ?>)"></div>
                         </div>
                     </div>
