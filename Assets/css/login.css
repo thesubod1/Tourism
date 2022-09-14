@@ -1,0 +1,82 @@
+body
+{
+    font-family: Poppins;
+    background-color: #F3F3FF;
+}
+input, label
+{
+    font-family: inherit;
+}
+
+    input[type='submit'], .button
+ {
+    background-color: #7879F1;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding:15px 45px;
+    display: inline-block;
+    border: 0;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.login
+{
+    margin-top: 5px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.create
+{
+    background-color: green;
+    color: whitesmoke;
+}
+
+
+.login-wrapper
+{
+    width: 550px;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 7px #c4c4c4;
+    border-radius: 25px;
+    padding: 45px 60px 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.login-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+input[type='text']
+{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #E9E9E9;
+    border: 0;
+    padding: 15px;
+    font-size: inherit;
+}
+.form-element input, 
+.form-element label{
+    margin-top:10px;
+    
+}
+
+.form-element label
+{
+    display: block;
+    width: 100%;
+    font-weight: 600;
+
+}
