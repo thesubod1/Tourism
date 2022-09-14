@@ -52,7 +52,7 @@ input[type="text"]
     width: 470px;
 }
 
-input[type='button']
+input[type='button'], input[type='submit']
 {
     background-color: #7879f1;
     font-weight: 600px;
