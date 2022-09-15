@@ -23,7 +23,7 @@
                     <div class="side-nav">
                         <div class="side-nav-container">
                             <div class="search-icon"><ion-icon name="search"></ion-icon></div>
-                            <div class="login-icon" id = "deactive"><ion-icon name="person"></ion-icon></div>
+                            <div class="login-icon" id = "deactive"><ion-icon name="person"></ion-icon></div></button>
                             <div class="login-img" id = "active" style="background-image:url(<?php echo site_url().'../pictures/adventure.jpg'; ?>)"></div>
                             <div class="map-icon" style="background-image:url(<?php echo site_url().'../pictures/map.jpg'; ?>)"></div>
                         </div>

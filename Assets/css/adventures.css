@@ -1,0 +1,58 @@
+body
+{
+    box-sizing: border-box;
+}
+
+.adv-img-sec .adv-img
+{
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+
+.adevnture-gallary-container
+{
+    display: grid;
+    grid-template-rows:300px;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+   
+    
+}
+
+.adv-img-sec .adv-text
+{
+    background-color: #F3F3FF;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.adventute-gallary a 
+{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+.adv-img-sec
+{
+   transition: 1s ease-in;
+}
+
+.adv-img-sec:hover
+{
+    position: relative;
+    bottom:10px;
+}
