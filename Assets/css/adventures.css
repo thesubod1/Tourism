@@ -1,6 +1,7 @@
 body
 {
     box-sizing: border-box;
+
 }
 
 .adv-img-sec .adv-img
@@ -31,7 +32,7 @@ body
 
 .adv-img-sec .adv-text
 {
-    background-color: #F3F3FF;
+    background-color:#abdbe3;
     padding: 10px 0px 10px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -55,4 +56,5 @@ body
 {
     position: relative;
     bottom:10px;
+    
 }

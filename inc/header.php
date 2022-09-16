@@ -17,7 +17,7 @@
                 <ul class="primary-menu" id="primary-menu">
                     <li><a href="<?php echo site_url().'../index.php'; ?>">Home</a></li>
                     <li><a href="<?php echo site_url().'../places.php'; ?>">Places</a></li>
-                    <li><a href="#">Adventures</a></li>
+                    <li><a href="<?php echo site_url().'../adventures.php';?>">Adventures</a></li>
                     <li><a href="#">Blog</a></li>
 
                     <div class="side-nav">
