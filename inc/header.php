@@ -7,17 +7,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo site_url().'../Assets/css/header.css'; ?>" />
-    <link rel="stylesheet" href="<?php echo site_url().'../Assets/css/mobilemenu.css'; ?>" />
+    <link rel="stylesheet" href="<?php echo site_url().'/assets/css/header.css'; ?>" />
+    <link rel="stylesheet" href="<?php echo site_url().'/assets/css/mobilemenu.css'; ?>" />
     </head>
 <body>
     <header class="site-url">
         <div class="nav-container">
             <nav class="site-navigation desktop">
                 <ul class="primary-menu" id="primary-menu">
-                    <li><a href="<?php echo site_url().'../index.php'; ?>">Home</a></li>
-                    <li><a href="<?php echo site_url().'../places.php'; ?>">Places</a></li>
-                    <li><a href="<?php echo site_url().'../adventures.php';?>">Adventures</a></li>
+                    <li><a href="<?php echo site_url().'/index.php'; ?>">Home</a></li>
+                    <li><a href="<?php echo site_url().'/places.php'; ?>">Places</a></li>
+                    <li><a href="<?php echo site_url().'/adventures.php';?>">Adventures</a></li>
                     <li><a href="#">Blog</a></li>
 
                     <div class="side-nav">
