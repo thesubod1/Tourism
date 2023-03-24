@@ -177,11 +177,11 @@
 	<script>
 		$(document).ready(function(){
 			$(".adv-slider").slick({
-				slideToShow: 1,
-				slideToScroll: 1,
+				slidesToShow: 1,
+				slidesToScroll: 1,
 				autoplay: true,
 				dots: false,
-				arrow: false,
+				arrows: true,
 			});
 		});
 	</script>
