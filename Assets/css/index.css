@@ -1,11 +1,15 @@
-body
-{
+body{
 	color: #7C7C7C;
 	margin: 0px;
-	padding: 0px;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 16px;
 } 
- 
- 
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
  .adv-slider .theme-img
 {
 	height: 500px;
@@ -13,7 +17,49 @@ body
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+.adv-slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	font-size: 0;
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	border: 0;
+	background-color: #f42548;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 5px;
+}
+.adv-slider .slick-arrow:before{
+	content: '';
+	display: inline-block;
+	width: 8px;
+    height: 8px;
+	border-left-width: 2px;
+    border-left-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+	border-color: #fff;
+	position: absolute;
+	top: 15px;
+	
+}
+.adv-slider .slick-prev:before{
+	transform: rotate(45deg);
+	left: 16px;
+}
+.adv-slider .slick-next:before{
+	transform: rotate(225deg);
+	left: 12px;
+}
+.adv-slider .slick-prev{
+	left: 45px;
+}
+.adv-slider .slick-next{
+	right: 45px;
+}
 .reservation-text p, .type-of-vacation p, .highlight-sections p, .highlight-text .heading
 {
 	display: flex;

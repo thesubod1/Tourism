@@ -1,11 +1,9 @@
-body
-{
-    color: #7C7C7C;
+.site-header{
+    background-color: #f1f1f1;
 }
-
-.site-url
-{
-    max-width: 100%;
+.site-header .wrapper{
+    align-items: center;
+    height: 60px;
 }
 
 
@@ -56,14 +54,10 @@ body
 
 }
 
- .side-nav .map-icon
-{
-    height: 50px;
-    width: 50px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.desktop .primary-menu a{
+    color: #010101;
+    text-decoration: none;
+    padding: 0 15px;
 }
 
 /*.side-nav .search-icon, .login-icon
@@ -96,6 +90,12 @@ body
     background-repeat: no-repeat;
     
 }*/
+
+
+
+
+
+
 
 
 
